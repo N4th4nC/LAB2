@@ -7,7 +7,7 @@ import os
 
 app = Flask(__name__)
 
-BASE_URL = "https://SEU_DOMINIO.onrender.com"  # trocar depois
+BASE_URL = "https://SEU-APP.onrender.com"
 
 # banco
 def init_db():
