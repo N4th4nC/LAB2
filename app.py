@@ -4,7 +4,8 @@ import secrets
 import datetime
 import qrcode
 import os
-
+import os
+os.makedirs("static", exist_ok=True)
 app = Flask(__name__)
 
 BASE_URL = "https://lab2-lk21.onrender.com"
