@@ -1,0 +1,11 @@
+<h1>Painel</h1>
+
+<form method="post" action="/gerar">
+    <button type="submit">Gerar QR Code</button>
+</form>
+
+{% if qr %}
+    <h3>Escaneie:</h3>
+    <img src="/{{ qr }}" width="250">
+    <p>{{ link }}</p>
+{% endif %}
