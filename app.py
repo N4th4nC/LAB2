@@ -7,7 +7,7 @@ import os
 
 app = Flask(__name__)
 
-BASE_URL = "https://SEU-APP.onrender.com"
+BASE_URL = "https://lab2-lk21.onrender.com"
 
 # banco
 def init_db():
